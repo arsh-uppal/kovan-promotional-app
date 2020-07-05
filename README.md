@@ -4,7 +4,7 @@ Manage, connect, take care, and be productive. Kovan is the one place app for al
 
 ## Getting Started
 
-This is a promoitional website for Kovan. Made with React JS  &hearts
+This is a promoitional website for Kovan. Made with React JS.
 
 ## Version Control
 
