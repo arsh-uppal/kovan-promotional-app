@@ -44,6 +44,7 @@ table {
 }
 /* code source https://meyerweb.com/eric/tools/css/reset/ */
 ​
+
 ​
 /* layout */
 .wrapper {
@@ -53,6 +54,7 @@ table {
 	width: 1300px;
 	margin: 0 auto;
 	position: relative;
+	overflow:hidden;
 }
 * {
     font-family: 'Roboto', sans-serif !important;

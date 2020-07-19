@@ -420,9 +420,9 @@
         height: auto;
     }
 
-    .rightText {
+    /* .rightText {
         height: 50vh;
-    }
+    } */
 
     .rightText .kovan .svgKovan {
         width: 100px;
