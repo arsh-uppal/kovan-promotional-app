@@ -1,0 +1,20 @@
+.newsletter {
+    float:left;
+    color:#000;
+    padding:20px 10px;
+}
+.email {
+    float:right;
+    padding:20px 10px;
+}
+.email input {
+    padding:9px 10px !important;
+    margin-right:10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .newsletter, .email {
+        text-align: center;
+        width: 100%;
+    }
+}
