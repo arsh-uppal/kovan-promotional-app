@@ -13,6 +13,7 @@ import Slide from '@material-ui/core/Slide';
 
 // css
 import './Contact.css';
+import { FormControl } from '@material-ui/core';
 
 // material-ui-styles
 const useStyles = makeStyles((theme) => ({
@@ -64,7 +65,8 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 export default function Contact() {
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const handleClickOpen = () => {
+  const handleClickOpen = (e) => {
+    e.preventDefault();
     setOpen(true);
   };
   const handleClose = () => {
@@ -111,17 +113,21 @@ export default function Contact() {
           </Grid>
           <Grid item sm={7} xs={12}>
           <div className={classes.form}>
+          <form onSubmit={handleClickOpen}>
             <TextField
               className={classes.inputStyle}
               id="outlined-size-normal"
               placeholder="Your Name"
               variant="outlined"
+              required
             />
             <TextField
               className={classes.inputStyle}
               id="outlined-size-normal"
               placeholder="Your E-mail"
               variant="outlined"
+              type="email"
+              required
             />
             <TextField
               className={classes.inputStyle}
@@ -130,14 +136,17 @@ export default function Contact() {
               rows={4}
               placeholder="Your Message"
               variant="outlined"
+              required
             />
             <Button 
               variant="contained" 
               className={classes.btnStyle}
-              onClick={handleClickOpen}
+              // onClick={handleClickOpen}
+              type="submit"
             >
               Send
             </Button>
+            </form>
           </div>
           </Grid>
         </Grid>
