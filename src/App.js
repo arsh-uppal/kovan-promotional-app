@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 // main-components
 import Home from './components/Home';
+import Price from './components/main/price/Price';
 import Technology from './components/main/technology/Technology';
 import Team from './components/main/team/Team';
 import Contact from './components/main/contact/Contact';
@@ -14,6 +15,9 @@ import Download from './components/main/download/Download';
 import Navbar from './components/common/navbar/Navbar';
 import Footer from './components/common/footer/Footer';
 
+//style
+import './App.css';
+
 function App() {
   return (
     <Router>
@@ -21,6 +25,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/price">
+          <Price />
         </Route>
         <Route exact path="/technology">
           <Technology />

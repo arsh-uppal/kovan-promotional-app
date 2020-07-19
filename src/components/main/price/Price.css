@@ -1,0 +1,18 @@
+.MuiCardContent-root {
+    padding:0 !important;
+}
+.MuiGrid-root div:nth-child(2) p:first-child {
+    background-color:#A53BBA !important;
+}
+.bg  {
+    background-image:url(../../../images/bg_price_2.png);
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+  }
+  
+@media only screen and (max-width: 600px) {
+    .bg  {
+        background-size:100% 50%;
+    }
+}
