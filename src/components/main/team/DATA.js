@@ -2,7 +2,7 @@ export let DATA = [
     {
       id:1,
       imgtitle: 'Arshdeep',
-      src: require('../../../images/team_arsh.png'),
+      src: require('../../../images/team_arsh.jpg'),
       alt:'Arsh',
       name:'Arshdeep Singh',
       title:'Full stack web developer / Project Manager',
@@ -12,7 +12,7 @@ export let DATA = [
     {
         id:2,
         imgtitle: 'Eduardo',
-        src: require('../../../images/team_edu.png'),
+        src: require('../../../images/team_edu.jpg'),
         alt:'Edu',
         name:'Eduardo Pereira do Carmo',
         title:'Lead Full stack web developer',
@@ -22,7 +22,7 @@ export let DATA = [
     {
         id:3,
         imgtitle: 'Yalcin',
-        src: require('../../../images/team_yalcin.png'),
+        src: require('../../../images/team_yalcin.jpg'),
         alt:'Yalcin',
         name:'Yalcin Tatar',
         title:'Full Stack Developer',
@@ -32,7 +32,7 @@ export let DATA = [
     {
         id:4,
         imgtitle: 'Saebom',
-        src: require('../../../images/team_sb1.png'),
+        src: require('../../../images/team_sb1.jpg'),
         alt:'Saebom',
         name:'Saebom Pak',
         title:'Front-end Developer',
@@ -42,7 +42,7 @@ export let DATA = [
     {
         id:5,
         imgtitle: 'Saebyeol',
-        src: require('../../../images/team_sb2.png'),
+        src: require('../../../images/team_sb2.jpg'),
         alt:'Saebyeol',
         name:'Saebyeol Pak',
         title:'Front-end Developer',
@@ -52,7 +52,7 @@ export let DATA = [
     {
         id:6,
         imgtitle: 'Harry',
-        src: require('../../../images/team_harry.png'),
+        src: require('../../../images/team_harry.jpg'),
         alt:'Harry Tran',
         name:'Harry Tran',
         title:'Lead UX/UI Designer',
@@ -62,7 +62,7 @@ export let DATA = [
     {
         id:7,
         imgtitle: 'Ramandeep',
-        src: require('../../../images/team_raman.png'),
+        src: require('../../../images/team_raman.jpg'),
         alt:'Ramandeep Kaur',
         name:'Ramandeep Kaur',
         title:'UX/UI Designer',
