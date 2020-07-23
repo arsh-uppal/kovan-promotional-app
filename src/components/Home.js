@@ -372,12 +372,11 @@ export default function Home() {
 
                 <div className="textDetail">
                   <Typography variant="h6" className="text" style={{paddingBottom:20}}>
-                    Kovan is a one stop application 
-                    <span>for all the group management needs.</span>
+                    All-in-one management solution for your smart life
+                    {/* <span>for all the group management needs.</span> */}
                   </Typography>
                   <Typography variant="h6" className="text">
-                    Manage, connect, take care, and be productive. 
-                    <span>Kovan is the one place app for all your group needs.</span>
+                  Kovan helps manage all kinds of small groups effectively and make your life easier 
                   </Typography>
                 </div>
 
@@ -456,9 +455,8 @@ export default function Home() {
               </div>
               <div className="textContainer">
                 <Typography className="big">
-                  <span>Manage, connect, take care, and be productive.</span>
-                  <span>Kovan is the one place for all your group needs.</span>
-                  <span>Kovan helps users to achieve your goals.</span>
+                  <span>All-in-one management solution for your smart life</span>
+                  <span>Kovan helps manage all kinds of small groups effectively and make your life easier </span>
                 </Typography>
                 <Typography className="small">You can download the proposal here</Typography>
                 <Button className="btnProposal" variant="contained" color="primary" disableElevation>download</Button>

@@ -16,8 +16,8 @@ export let CardData = [
   {
     id:3,
     title:'Pro',
-    price:'$89',
-    des:'Fully Customize User For 1 Year',
+    price:'$14.99',
+    des:'Access Exclusive Features For 1 Year',
     btn:'Buy Now',
   },
 ];
