@@ -114,7 +114,7 @@ export default function Contact() {
       <div className="bg">
       <div className="center">
         <div className="sub_title">
-          <h1 className="font_color">Price</h1>
+          <h1>Price</h1>
           <p>Try Calendar, To-do lists, and Message for free<br />
           Upgrade plan to all Kovan features</p>
         </div>

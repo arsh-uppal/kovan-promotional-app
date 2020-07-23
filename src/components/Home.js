@@ -419,9 +419,9 @@ export default function Home() {
 
             <div className="itemBox">
 
-              <div className="featureBee">
+              {/* <div className="featureBee">
                 <img src={AvatarMove} alt={"bee"}/>
-              </div>
+              </div> */}
 
               {data.map((item) => (
                 <Features
