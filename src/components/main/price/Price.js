@@ -115,9 +115,8 @@ export default function Contact() {
       <div className="center">
         <div className="sub_title">
           <h1 className="font_color">Price</h1>
-          <p>Kovan will house various advanced features, such as<br />
-          creating groups, tracking group members, expenses management,<br />event management,
-          to-do list, polling system, grocery list, messages.</p>
+          <p>Try Calendar, To-do lists, and Message for free<br />
+          Upgrade plan to all Kovan features</p>
         </div>
       <Grid 
         container 
