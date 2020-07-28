@@ -15,7 +15,7 @@ import Newsletter from './main/Newsletter';
 // images
 import btn_apple from './../images/btn_apple.png'
 import btn_google from './../images/btn_google.png'
-import phone from './../images/Iphone Mockup.png'
+import phone from './../images/Iphone-Mockup.png'
 import video from "./../images/video.mp4";
 import AvatarMove from './../images/AvatarMove.png'
 
@@ -442,7 +442,7 @@ export default function Home() {
 
         <div className="center">
             <div className="sub_title">
-              <h1>Try Kovan Out Today</h1>
+              <h1>Try out Kovan Today</h1>
             </div>
             <div className="downBox">
               <div className="leftBee">
