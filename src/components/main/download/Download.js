@@ -10,7 +10,7 @@ import './Download.css';
 
 
 //images
-import phone from './../../../images/Iphone Mockup.png'
+import phone from './../../../images/Iphone-Mockup.png'
 import btn_apple from './../../../images/btn_apple.png'
 import btn_google from './../../../images/btn_google.png'
 

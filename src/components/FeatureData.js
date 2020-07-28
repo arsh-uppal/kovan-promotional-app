@@ -27,19 +27,19 @@ export let FEATURE_DATA = [
     },
     {
         title: 'Expenses',
-        content: 'Arrange of a list of with group members',
+        content: 'Manage expenses seamlessly',
         css: 'item5',
         icon: require('./../images/icon5.png'),
     },
     {
         title: 'Tracking',
-        content: 'Track where your loved elderly and kids',
+        content: 'Track your loved ones',
         css: 'item6',
         icon: require('./../images/icon6.png'),
     },
     {
         title: 'Polling',
-        content: 'Question and get real-time results for all to see',
+        content: 'Post questions and get real-time results',
         css: 'item7',
         icon: require('./../images/icon7.png'),
     },
