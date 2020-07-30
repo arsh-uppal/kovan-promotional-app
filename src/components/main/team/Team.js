@@ -19,9 +19,9 @@ export default function Team() {
         <div className="sub_title">
           <h1>Our Team</h1>
           <p>Kovan is brought to you by 7 talented people. <br />
-          This team is dedicated to bring a new experience with 2 designers who bring amazing styles <br />
-          and 5 developers who have experience from different platforms.
-          <span style={{fontWeight:'bold'}}>Reach Out To Us!</span></p>
+          This team is dedicated to bring you a quality experience, with 2 designers who bring amazing style to the table, <br />
+          and 5 developers who have experience in different platforms.
+          <span style={{fontWeight:'bold'}}> Reach Out To Us!</span></p>
         </div>
         <div className="itemContainer">
           {items.map((item) => (

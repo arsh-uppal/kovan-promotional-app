@@ -459,7 +459,16 @@ export default function Home() {
                   <span>Kovan helps manage all kinds of small groups effectively and make your life easier </span>
                 </Typography>
                 <Typography className="small">You can download the proposal here</Typography>
-                <Button className="btnProposal" variant="contained" color="primary" disableElevation>download</Button>
+                <Button 
+                className="btnProposal" 
+                variant="contained" 
+                color="primary" 
+                disableElevation
+                >
+                  <a className="download" href="./../images/Proposal-Kovan.pdf" download>
+                  download
+                  </a>
+                </Button>
               </div>
             </div>
         </div>{/* center */}

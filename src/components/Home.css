@@ -296,6 +296,12 @@
     height: 82px;
 }
 
+.download {
+    text-decoration: none;
+    color:white;
+    padding-top:8px;
+    display: block;
+}
 
 
 /****************************/
