@@ -18,7 +18,7 @@ import btn_google from './../images/btn_google.png'
 import phone from './../images/Iphone-Mockup.png'
 import video from "./../images/video.mp4";
 import AvatarMove from './../images/AvatarMove.png'
-import MyPDF from "./../images/Proposal-Kovan.pdf"
+import MyPDF from "./../images/Proposal_Kovan.pdf"
 
 
 export default function Home() {
