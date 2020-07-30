@@ -465,7 +465,7 @@ export default function Home() {
                 color="primary" 
                 disableElevation
                 >
-                  <a className="download" href="./../images/Proposal-Kovan.pdf" download>
+                  <a className="download" href="https://kovanapp.com/Proposal_Kovan.pdf" download>
                   download
                   </a>
                 </Button>

@@ -56,7 +56,7 @@ export let DATA = [
         alt:'Harry Tran',
         name:'Harry Tran',
         title:'Lead UX/UI Designer',
-        ahref:"https://www.linkedin.com/in/harryvtran/",
+        ahref:"https://www.linkedin.com/in/harrykiestran/",
         gahref:"",
     },
     {
