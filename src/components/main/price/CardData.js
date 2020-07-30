@@ -10,7 +10,7 @@ export let CardData = [
     id:2,
     title:'Basic',
     price:'$8.99',
-    des:'Get 2 Add-Ons For 1 Year',
+    des:'Get Two Additional Add-Ons For 1 Year',
     btn:'Buy Now',
   },
   {
