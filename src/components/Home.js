@@ -18,6 +18,7 @@ import btn_google from './../images/btn_google.png'
 import phone from './../images/Iphone-Mockup.png'
 import video from "./../images/video.mp4";
 import AvatarMove from './../images/AvatarMove.png'
+import MyPDF from "./../images/Proposal-Kovan.pdf"
 
 
 export default function Home() {
@@ -465,7 +466,7 @@ export default function Home() {
                 color="primary" 
                 disableElevation
                 >
-                  <a className="download" href="https://kovanapp.com/Proposal_Kovan.pdf" download>
+                  <a className="download" href={MyPDF} download="Proposal_Kovan.pdf">
                   download
                   </a>
                 </Button>
